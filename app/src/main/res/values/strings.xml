@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="dialog_stock_edittext">Text field for new stock</string>
+    <string name="stock_symbol">Stock Symbol</string>
+    <string name="bid_price">Bid price</string>
+    <string name="change">Change</string>
+    <string name="new_stock_button">Add a new stock</string>
+    <string name="error_message">Error message</string>
+    <string name="symbol_not_found_message">Symbol %s does not exist. Removing it from stocks</string>
+    <string name="price_dollars">%.2f $</string>
+    <string name="price_history_header">Price</string>
+    <string name="date_history_header">Date</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="symbol_error">Stock name is empty or containing a space, aborting.</string>
+    <string name="date_column_description">Date Column</string>
+    <string name="price_column_description">Price Column</string>
+    <string name="history_header_description">Price history header</string>
+    <string name="date_for_the_item">Date for the item</string>
+    <string name="price_for_the_item">Price for the item</string>
+    <string name="no_stocks_widget">There are no stocks, add them on your app!</string>
+    <string name="history_activity_title">Price History for %s</string>
+
+</resources>

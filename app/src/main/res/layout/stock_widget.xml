@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="@color/widget_background">
+
+    <ListView
+        android:id="@+id/widget_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/appwidget_text" />
+    <TextView
+        android:id="@+id/empty_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/widget_textcolor"
+        android:visibility="gone"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/no_stocks_widget"
+
+        android:contentDescription="@string/error_message"/>
+
+</FrameLayout>

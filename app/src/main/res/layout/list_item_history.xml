@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:id="@+id/history_item_grid">
+
+    <TextView
+        android:id="@+id/history_item_date"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        tools:text="GG/MM/YYYY"
+        android:contentDescription="@string/date_for_the_item"/>
+
+    <TextView
+        android:id="@+id/history_item_price"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        tools:text="00.00€"
+        android:contentDescription="@string/price_for_the_item"/>
+
+</GridLayout>
